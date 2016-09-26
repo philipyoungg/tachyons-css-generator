@@ -6,8 +6,8 @@
     "start": "gulp"
   },
   "author": "philipyoungg",
-  "website: http://philipyoungg.com"
-  "email: hello@philipyoungg.com"
+  "website": "http://philipyoungg.com",
+  "email": "hello@philipyoungg.com",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
