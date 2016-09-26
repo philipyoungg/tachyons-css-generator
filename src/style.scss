@@ -1,0 +1,13 @@
+@import 'variable';
+@import 'reset';
+@import 'genTachyons';
+
+///////
+@include genTachyons( 'fs0', 'flex-shrink', 0);
+@include genTachyons( 'fs1', 'flex-shrink', 1);
+@include genTachyons( 'fg0', 'flex-grow', 0);
+@include genTachyons( 'fg1', 'flex-grow', 1);
+@include genTachyons( 'flex-nowrap', 'flex-nowrap', 'nowrap');
+@include genTachyons2param( 'absolute-vertical-center', 'top', '50%', 'transform', 'translateX(-50%)');
+@include genTachyons2param( 'absolute-horizontal-center', 'left', '50%', 'transform', 'translateY(-50%)');
+@include genTachyons3param( 'absolute-center', 'left', '50%', 'top', '50%', 'transform', 'translate(-50%, -50%)');
