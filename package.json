@@ -1,12 +1,13 @@
 {
-  "name": "bukapintu",
+  "name": "tachyons css generator",
   "version": "0.2.0",
-  "description": "",
-  "main": "tachyons css generator",
+  "description": "an SCSS mixin to generate tachyons and compile them with autoprefixer",
   "scripts": {
     "start": "gulp"
   },
-  "author": "",
+  "author": "philipyoungg",
+  "website: http://philipyoungg.com"
+  "email: hello@philipyoungg.com"
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
