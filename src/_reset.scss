@@ -1,11 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 21px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
+p,
+ul {
+  font-size: 1rem;
+  margin: 0 0 1rem; // mb 1 rem;
+  line-height: 1.15;
+}
+
 p {
-  margin: 0 0 1rem; // margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li,
+p {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+button,
+input,
+label,
+textarea {
+  font-size: 1rem;
+}
+
+button,
+input:not[type='checkbox'],
+input:not[type='radio'],
+textarea {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0;
+  -webkit-appearance: none;
+  box-shadow: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 ::placeholder {

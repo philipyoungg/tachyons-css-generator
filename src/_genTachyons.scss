@@ -4,17 +4,17 @@
   };
   @media screen and (min-width: $bpsmall) {
     .#{$classname}-ns {
-      #{$properties}: #{$value};
+      #{$properties}: #{$value} !important;
     };
   }
   @media screen and (min-width: $bpsmall) and (max-width: $bplarge) {
     .#{$classname}-m {
-      #{$properties}: #{$value};
+      #{$properties}: #{$value} !important;
     };
   }
   @media screen and (min-width: $bplarge) {
     .#{$classname}-l {
-      #{$properties}: #{$value};
+      #{$properties}: #{$value} !important;
     };
   }
 }

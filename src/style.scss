@@ -1,13 +1,28 @@
 @import 'variable';
 @import 'reset';
 @import 'genTachyons';
+///
+/* @import 'bukapintu'; */
 
 ///////
 @include genTachyons( 'fs0', 'flex-shrink', 0);
 @include genTachyons( 'fs1', 'flex-shrink', 1);
 @include genTachyons( 'fg0', 'flex-grow', 0);
 @include genTachyons( 'fg1', 'flex-grow', 1);
-@include genTachyons( 'flex-nowrap', 'flex-nowrap', 'nowrap');
+///
 @include genTachyons2param( 'absolute-vertical-center', 'top', '50%', 'transform', 'translateX(-50%)');
 @include genTachyons2param( 'absolute-horizontal-center', 'left', '50%', 'transform', 'translateY(-50%)');
 @include genTachyons3param( 'absolute-center', 'left', '50%', 'top', '50%', 'transform', 'translate(-50%, -50%)');
+///
+@include genTachyons( 'f-headline', 'font-size', 1rem * 1.3 * 1.3 * 1.3 * 1.3 * 1.3 * 1.3);
+@include genTachyons( 'f-subheadline', 'font-size', 1rem * 1.3 * 1.3 * 1.3 * 1.3 * 1.3);
+@include genTachyons( 'f1', 'font-size', 1rem * 1.3 * 1.3 * 1.3 * 1.3);
+@include genTachyons( 'f2', 'font-size', 1rem * 1.3 * 1.3 * 1.3);
+@include genTachyons( 'f3', 'font-size', 1rem * 1.3 * 1.3);
+@include genTachyons( 'f4', 'font-size', 1rem * 1.3);
+@include genTachyons( 'f5', 'font-size', 1rem);
+@include genTachyons( 'f6', 'font-size', 1rem / 1.3);
+@include genTachyons( 'f7', 'font-size', 1rem / 1.3 / 1.3);
+@include genTachyons( 'f8', 'font-size', 1rem / 1.3 / 1.3 / 1.3);
+@include genTachyons( 'f9', 'font-size', 1rem / 1.3 / 1.3 / 1.3 / 1.3); /* @include genTachyons( 'lh1', 'line-height', '.5rem'); @include genTachyons( 'lh2', 'line-height', '1rem'); @include genTachyons( 'lh3', 'line-height', '1.5rem'); @include genTachyons( 'lh4', 'line-height', '2rem'); @include genTachyons( 'lh5', 'line-height', '3rem'); */
+/// @include genTachyons( 'mh-500', 'min-height', '500px'); // @include genTachyons( 'tracked-semi-tight', 'letter-spacing', -0.025em); /// @include genTachyons( 'w-67', 'width', 67 / 100 * 100%);

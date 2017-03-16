@@ -1,0 +1,58 @@
+[class*="flaticon-"]:before {
+  margin-left: 0;
+  font-size: 4rem;
+}
+
+body {
+  background: black;
+}
+
+.karla {
+  font-family: 'Karla', sans-serif;
+}
+
+.bg-bp-meeting {
+  background: radial-gradient(circle farthest-side at top right, #196579, rgba(12, 28, 40, 0.94) 70%), url("https://bukapintu.co/src/assets/meeting.jpeg");
+}
+
+.bg-bp-black {
+  background: radial-gradient(circle at bottom, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.9));
+}
+
+.bg-bp-office {
+  background: radial-gradient(circle farthest-side at top right, #196579, rgba(12, 28, 40, 0.94) 70%), url("https://bukapintu.co/src/assets/office.jpeg");
+}
+
+.bg-bp-dark-blue {
+  background: #10202a;
+}
+
+.bg-bp-graduation {
+  background: radial-gradient(circle farthest-side at top right, #689421, rgba(31, 41, 8, 0.97) 70%), url("https://bukapintu.co/src/assets/graduation.jpeg");
+}
+
+.bg-bp-dark-green {
+  background: #1a250d;
+}
+
+.bg-bp-workplace {
+  background: radial-gradient(circle farthest-side at top right, #689421, rgba(31, 41, 8, 0.96) 70%), url("http://res.cloudinary.com/bukapintu/image/upload/v1473413055/hero/companies.jpg");
+}
+
+.bg-bp-gradient-dark-blue {
+  background: linear-gradient(to bottom left, #153244, #10202a);
+}
+
+.bg-center {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.shadow-big {
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.15), 0 0 50px 60px rgba(0, 0, 0, 0.15);
+}
+
+.shadow-inset {
+
+  box-shadow: inset 0 0 50px 60px rgba(0, 0, 0, 0.1);
+}
